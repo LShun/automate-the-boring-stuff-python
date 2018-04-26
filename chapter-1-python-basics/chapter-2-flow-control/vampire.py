@@ -1,5 +1,7 @@
-name = 'Dracula'
-age = 4000
+print('Input your name: ')
+name = input()
+print('Input your age: ')
+age = int(input())
 if name == 'Alice':
     print('Hi, Alice.')
 elif age < 12:
